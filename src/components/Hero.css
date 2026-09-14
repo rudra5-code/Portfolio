@@ -1,0 +1,287 @@
+/* =========================
+   HERO
+========================= */
+
+.hero {
+  padding: 180px 0 120px;
+}
+
+.hero__grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 64px;
+  align-items: center;
+}
+
+
+/* =========================
+   HERO LEFT SIDE
+========================= */
+
+.hero__status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--text-muted);
+
+  border: 1px solid var(--border);
+  padding: 6px 14px 6px 10px;
+
+  border-radius: 999px;
+
+  margin-bottom: 28px;
+}
+
+.hero__dot {
+  width: 7px;
+  height: 7px;
+
+  border-radius: 50%;
+
+  background: var(--live);
+
+  box-shadow: 0 0 0 3px #4ade8022;
+}
+
+.hero h1 {
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+
+  color: var(--text);
+
+  max-width: 12ch;
+}
+
+.hero__lede {
+  margin-top: 22px;
+
+  font-size: 1.08rem;
+
+  color: var(--text-muted);
+
+  max-width: 46ch;
+
+  line-height: 1.65;
+}
+
+.hero__actions {
+  display: flex;
+
+  gap: 14px;
+
+  margin-top: 36px;
+}
+
+.hero__edu {
+  margin-top: 40px;
+
+  font-size: 0.86rem;
+
+  color: var(--text-faint);
+
+  border-left: 2px solid var(--border);
+
+  padding-left: 12px;
+}
+
+
+/* =========================
+   DEVELOPER.JS PANEL
+========================= */
+
+.hero__panel {
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+
+  border-radius: 8px;
+
+  overflow: hidden;
+
+  width: 100%;
+
+  max-width: 430px;
+
+  margin-left: auto;
+
+  box-shadow:
+    0 24px 60px -20px rgba(0, 0, 0, 0.6);
+}
+
+
+/* =========================
+   PANEL HEADER
+========================= */
+
+.hero__panel-bar {
+  padding: 14px 18px;
+
+  border-top: 2px solid var(--accent);
+
+  border-bottom: 1px solid var(--border);
+
+  display: flex;
+
+  align-items: center;
+}
+
+.hero__panel-bar span {
+  font-family: var(--font-mono);
+
+  font-size: 0.78rem;
+
+  color: var(--text-faint);
+}
+
+
+/* =========================
+   CODE AREA
+========================= */
+
+.hero__code {
+  display: block;
+
+  margin: 0;
+
+  padding: 22px 20px 24px;
+
+  font-family: var(--font-mono);
+
+  font-size: 0.82rem;
+
+  line-height: 1.8;
+
+  white-space: pre;
+
+  overflow-x: auto;
+
+  overflow-y: hidden;
+
+  /* IMPORTANT:
+     No fixed height or min-height */
+}
+
+
+/* =========================
+   CODE COLORS
+========================= */
+
+.c-muted {
+  color: var(--text-faint);
+
+  margin-right: 10px;
+}
+
+.c-key {
+  color: var(--accent-2);
+}
+
+.c-var {
+  color: var(--text);
+}
+
+.c-prop {
+  color: #7fd0a8;
+}
+
+.c-str {
+  color: var(--accent);
+}
+
+.c-op {
+  color: var(--text-faint);
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 900px) {
+
+  .hero {
+    padding: 140px 0 80px;
+  }
+
+  .hero__grid {
+    grid-template-columns: 1fr;
+
+    gap: 50px;
+  }
+
+  .hero__panel {
+    order: -1;
+
+    max-width: 100%;
+
+    margin-left: 0;
+  }
+
+  .hero__code {
+    font-size: 0.78rem;
+
+    line-height: 1.8;
+
+    padding: 22px 18px 24px;
+  }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+  .hero {
+    padding: 120px 0 70px;
+  }
+
+  .hero__grid {
+    gap: 36px;
+  }
+
+  .hero h1 {
+    font-size: 2.4rem;
+  }
+
+  .hero__lede {
+    font-size: 1rem;
+  }
+
+  .hero__actions {
+    flex-direction: column;
+
+    align-items: stretch;
+  }
+
+  .hero__actions .btn {
+    width: 100%;
+  }
+
+  .hero__panel {
+    width: 100%;
+
+    max-width: 100%;
+
+    border-radius: 6px;
+  }
+
+  .hero__panel-bar {
+    padding: 12px 14px;
+  }
+
+  .hero__code {
+    padding: 20px 14px 22px;
+
+    font-size: 0.7rem;
+
+    line-height: 1.8;
+  }
+
+  .c-muted {
+    margin-right: 6px;
+  }
+}
