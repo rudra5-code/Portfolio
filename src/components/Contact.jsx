@@ -16,12 +16,12 @@ export default function Contact() {
         </div>
 
         <div className="contact__details">
-          <a href="mailto:rudrapratapsinh@example.com">
-            rudrapratapsinh@example.com
-          </a>
+          <a href="mailto:rudrachavda266@gmail.com">
+  rudrachavda266@gmail.com
+</a>
 
           <a
-            href="https://github.com/"
+            href="https://github.com/rudra5-code#"
             target="_blank"
             rel="noreferrer"
           >
@@ -34,6 +34,19 @@ export default function Contact() {
             rel="noreferrer"
           >
             LinkedIn ↗
+          </a>
+          <a
+
+            href="https://wa.me/917861931804?text=Hello%20Rudra%2C%20I%27d%20like%20to%20discuss%20a%20project%20with%20you."
+
+            target="_blank"
+
+            rel="noreferrer"
+
+          >
+
+            WhatsApp ↗
+
           </a>
         </div>
       </div>

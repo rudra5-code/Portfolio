@@ -65,13 +65,23 @@ export default function Navbar() {
             </a>
           ))}
 
-          <a
-            href="#contact"
-            className="btn btn-primary"
-            onClick={() => setOpen(false)}
-          >
-            Let's talk
-          </a>
+   <a
+
+  href="https://wa.me/917861931804"
+
+  className="btn btn-primary"
+
+  target="_blank"
+
+  rel="noopener noreferrer"
+
+  onClick={() => setOpen(false)}
+
+>
+
+  Let's talk
+
+</a>
         </div>
       )}
     </header>
