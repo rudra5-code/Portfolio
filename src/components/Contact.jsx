@@ -27,14 +27,6 @@ export default function Contact() {
           >
             GitHub ↗
           </a>
-
-          <a
-            href="https://www.linkedin.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            LinkedIn ↗
-          </a>
           <a
 
             href="https://wa.me/917861931804?text=Hello%20Rudra%2C%20I%27d%20like%20to%20discuss%20a%20project%20with%20you."
