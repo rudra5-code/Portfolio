@@ -2,29 +2,37 @@ import './Projects.css'
 
 const PROJECTS = [
   {
-    name: 'ShopKart — E-commerce Platform',
+    name: 'Urjayate Diet Clinic',
     description:
-      'A full-featured storefront with product search, cart, Stripe checkout, and an admin dashboard for managing inventory and orders.',
-    tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Stripe'],
+      'Developed a responsive React.js website for Urjayte – Diet & Weight Loss Clinic, featuring a modern healthcare-focused UI with reusable components and smooth navigation. The website includes sections for Home, About, Services, Testimonials, Gallery, FAQ and Contact. Implemented responsive layouts for mobile and desktop, React Router navigation, dark/light theme functionality, interactive testimonial sections and a structured user-friendly interface. Used React.js, JavaScript, CSS, Bootstrap/Tailwind CSS and React Router DOM to create a professional and responsive web experience.',
+    
     live: '#',
     code: '#',
   },
   {
-    name: 'TaskFlow — Team Task Manager',
+    name: 'Estore',
     description:
-      'Kanban-style task boards with drag-and-drop, real-time updates via Socket.io, and role-based access for teams.',
-    tags: ['React', 'Redux', 'Express', 'MongoDB', 'Socket.io'],
+      'E-Store – React E-Commerce Website: Built a responsive React.js e-commerce application with reusable product components, product filtering, search, cart functionality and modern responsive UI.',
+
     live: '#',
     code: '#',
   },
   {
-    name: 'ChatSphere — Real-time Chat App',
+    name: 'Real-Estate-Wbesite',
     description:
-      'One-to-one and group messaging with JWT authentication, typing indicators, and message history stored in MongoDB.',
-    tags: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT'],
+      'Nestora – Real Estate Website: Developed a responsive real-estate website featuring property listings, detailed property information, modern UI and mobile-friendly layouts.',
+
     live: '#',
     code: '#',
   },
+  {
+    name: 'HARIOM-EV-GARAGE',
+    description:
+      'HARIOM EV GARAGE – EV Service Website: Developed a responsive React.js website for a two-wheeler EV garage featuring services, customer reviews, FAQs, benefits and direct contact/WhatsApp integration.',
+    
+    live: '#',
+    code: '#',
+  }
 ]
 
 function ArrowIcon() {
